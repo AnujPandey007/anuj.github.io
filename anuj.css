@@ -1,0 +1,173 @@
+/* Universal selector */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+#red{
+    color: rgb(53, 197, 53);
+}
+
+.blue{
+    color: rgb(76, 201, 26);
+}
+
+.first, .second{
+    color: rgb(240, 35, 86);
+}
+
+#anuj, #anuj2{
+    color: pink;
+}
+
+.container{
+    /* border-width: 2px;
+    border-color: red;
+    border-top-color: blue;
+    border-style: solid;
+    border-radius: 10px; */
+    /* background-color: rgb(143, 143, 236); */
+    /* width: 600px; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    /* background-position: 40px 12px; */
+    /* background-size: contain; */
+    margin: 10px;
+}
+
+.child{
+    border-color: black;
+    border-width: 1.5px;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 50px 50px;
+    margin: 10px;
+}
+
+.title{
+    color: blue;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.content{
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    line-height: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn{
+    color: rgb(219, 147, 12);
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: black;
+    /* border-style: solid; */
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(233, 165, 40);
+}
+
+.btn:active{
+    color: black;
+    background-color: rgb(192, 125, 0);
+}
+
+/* .btn:visited{
+    color: red;
+    background-color: aqua;
+} */
+
+.bold{
+    font-weight: bold;
+}
+
+.navBar{
+    background-color: black;
+    border-radius: 40px;
+}
+
+.navBar ul{
+    overflow: auto;
+}
+
+.navBar li{
+    float: left;
+    list-style: none;
+    margin: 20px 40px;
+}
+
+.navBar a:hover{
+    color: rgba(255, 255, 255, 0.849);
+}
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.navBar div{
+    text-align: end;
+    padding: 20px 40px;
+}
+
+.navBar input{
+    padding: 3px;
+    border-radius: 40px;
+    border-width: 1px;
+    border-style: solid;
+    width: 130px;
+}
+
+.curve{
+    fill: black;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+}
+
+/*
+Box
+*/
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 5px;
+} */
+
+/* #box1{ */
+     /*absolute-- relative to its normal parent*/
+    /* position: absolute;
+    top: 20px;
+}  */
+
+/*box2 is having static position by default*/
+
+/* #box3{ */
+    /*relative-- relative to its normal position*/
+    /* position: relative; 
+    top: 20px;
+} */
+
+/* #box4{ */
+    /*relative-- relative to its normal position*/
+    /* position: fixed; 
+    top: 20px;
+} */
